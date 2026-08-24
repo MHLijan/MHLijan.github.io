@@ -1,4 +1,3 @@
-// Always start from Home after refresh
 
 if ("scrollRestoration" in history) {
     history.scrollRestoration = "manual";
@@ -13,9 +12,10 @@ window.addEventListener("load", () => {
 const textElement = document.querySelector(".text");
 
 const texts = [
-    "Web Developer",
-    "Frontend Developer",
-    "Web Designer"
+    "Computer Science Student",
+    "Tech Enthusiast",
+    "Passionate Learner",
+    "Frontend Enthusiast",
 ];
 
 let textIndex = 0;
